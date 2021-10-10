@@ -134,7 +134,7 @@
       </div>
     </section>
 
-    <section id="mint" class="px-2 md:px-16 mx-auto max-w-7xl">
+    <section v-if="saleopen" id="mint" class="px-2 md:px-16 mx-auto max-w-7xl">
       <h2
         class="mb-4 text-5xl md:text-7xl font-bold py-10 text-red-400 text-center md:text-left px-2"
       >
