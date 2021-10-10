@@ -63,7 +63,7 @@
                   src="./images/twitter.png"
               /></a>
               <a
-                href="https://discord.gg/469FPhxKHQ"
+                href="https://discord.gg/9pb4U4xmq2"
                 class="uppercase leading-6 hover:text-red-900"
                 ><img
                   class="object-contain w-16 h-16"
@@ -718,7 +718,7 @@
               ><img class="object-contain w-16 h-16" src="./images/twitter.png"
             /></a>
             <a
-              href="https://discord.gg/469FPhxKHQ"
+              href="https://discord.gg/9pb4U4xmq2"
               class="uppercase leading-6 hover:text-red-900"
               ><img class="object-contain w-16 h-16" src="./images/discord.png"
             /></a>
