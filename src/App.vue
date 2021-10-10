@@ -134,7 +134,7 @@
       </div>
     </section>
 
-    <section v-if="saleopen" id="mint" class="px-2 md:px-16 mx-auto max-w-7xl">
+    <section id="mint" class="px-2 md:px-16 mx-auto max-w-7xl">
       <h2
         class="mb-4 text-5xl md:text-7xl font-bold py-10 text-red-400 text-center md:text-left px-2"
       >
@@ -169,7 +169,7 @@
             src="./images/card.png"
           />
           <div>
-            <div class="relative flex flex-col sm:flex-row sm:space-x-4">
+            <div v-if="saleopen" class="relative flex flex-col sm:flex-row sm:space-x-4">
               <a class="m-auto" @click="fund">
                 <button class="table-text classic-button text-xl">
                   MINT @ {{ nft_price }} ETH
