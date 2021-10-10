@@ -604,16 +604,16 @@
                 When will the donations be distributed to the charities?</label
               >
               <div class="tab-content">
-                Till what date can the Marvatars be minted? What happens to the
-                unsold Marvatars?
+                The donations will be distributed after the sales of each
+                edition
               </div>
             </div>
 
             <div class="tab">
               <input type="checkbox" id="chck10" />
               <label class="tab-label" for="chck10">
-                The donations will be distributed after the sales of each
-                edition</label
+                Till what date can the Marvatars be minted? What happens to the
+                unsold Marvatars?</label
               >
               <div class="tab-content">
                 Marvatars can be minted till 7 days from the start of the sale •
