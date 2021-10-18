@@ -55,6 +55,13 @@
             <nav
               class="flex flex-wrap items-center text-base pb-4 justify-center"
             >
+             <a
+                href="http://t.me/marvatars"
+                class="uppercase leading-6 hover:text-red-900"
+                ><img
+                  class="object-contain w-16 h-16"
+                  src="./images/tg.png"
+              /></a>
               <a
                 href="https://twitter.com/marvatars"
                 class="uppercase leading-6 hover:text-red-900"
@@ -696,6 +703,11 @@
         </div>
         <div class="inline-flex items-center">
           <nav class="flex flex-wrap items-center">
+           <a
+              href="http://t.me/marvatars"
+              class="uppercase leading-6 hover:text-red-900"
+              ><img class="object-contain w-16 h-16" src="./images/tg.png"
+            /></a>
             <a
               href="https://twitter.com/marvatars"
               class="uppercase leading-6 hover:text-red-900"
