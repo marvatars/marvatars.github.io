@@ -422,7 +422,7 @@
             At the end of the sale, a consolidated list of charities will be
             published based on the community nominations including some of the
             charities that we have considered. There will be 5 rounds of voting,
-            based on the progress of the mint sale (20%, 40%, 60%, 90% & 100%).
+            based on the progress of the mint sale (20%, 40%, 60%, 80% & 100%).
             The charity with the maximum number of votes at the end of the
             voting period for each of the rounds will receive the respective
             donations at the end of the sale period.
