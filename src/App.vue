@@ -26,28 +26,28 @@
                 class="uppercase leading-6 hover:text-red-300 text-center px-4"
               >
                 Mint
-                <img class="w-20  m-auto" src="./images/fireline.png" />
+                <img class="w-20 m-auto" src="./images/fireline.png" />
               </a>
               <a
                 href="#faqs"
                 class="uppercase leading-6 hover:text-red-300 text-center px-4"
               >
                 FAQs
-                <img class="w-20  m-auto" src="./images/fireline.png" />
+                <img class="w-20 m-auto" src="./images/fireline.png" />
               </a>
               <a
                 href="#charity"
                 class="uppercase leading-6 hover:text-red-300 text-center px-4"
               >
                 Charity
-                <img class="w-20  m-auto" src="./images/fireline.png" />
+                <img class="w-20 m-auto" src="./images/fireline.png" />
               </a>
               <a
                 href="#lotteries"
                 class="uppercase leading-6 hover:text-red-300 text-center px-4"
               >
                 Lotteries
-                <img class="w-20  m-auto" src="./images/fireline.png" />
+                <img class="w-20 m-auto" src="./images/fireline.png" />
               </a>
             </nav>
           </div>
@@ -55,6 +55,11 @@
             <nav
               class="flex flex-wrap items-center text-base pb-4 justify-center"
             >
+              <a
+                href="http://t.me/marvatars"
+                class="uppercase leading-6 hover:text-red-900"
+                ><img class="object-contain w-16 h-16" src="./images/tg.png"
+              /></a>
               <a
                 href="https://twitter.com/marvatars"
                 class="uppercase leading-6 hover:text-red-900"
@@ -85,7 +90,7 @@
           </div>
         </div>
       </section>
-      <section class="pt-8 md:pt-60 pb-24 px-2 md:px-16 mx-auto max-w-7xl ">
+      <section class="pt-8 md:pt-60 pb-24 px-2 md:px-16 mx-auto max-w-7xl">
         <div
           class="grid grid-cols-1 gap-0 text-gray-400 md:grid-cols-2 md:gap-16 text-xl"
         >
@@ -97,7 +102,7 @@
 
             <p class="py-8 intro-text text-4xl">Pick your side!</p>
             <a href="#">
-              <button class="table-text classic-button ">
+              <button class="table-text classic-button">
                 What's your Marvatar?
               </button>
             </a>
@@ -121,7 +126,7 @@
         Marvatars Roadmap
       </h2>
 
-      <div class="grid grid-cols-1 gap-0 text-gray-400 ">
+      <div class="grid grid-cols-1 gap-0 text-gray-400">
         <div class="text-xl my-8">
           <p class="text-center table-text text-white text-3xl">
             Marvatars - Coming To You In 3 Phases
@@ -142,14 +147,14 @@
       </h2>
 
       <div
-        class="grid grid-cols-1 gap-0 text-gray-400 md:grid-cols-2 md:gap-16 my-16 "
+        class="grid grid-cols-1 gap-0 text-gray-400 md:grid-cols-2 md:gap-16 my-16"
       >
         <div class="text-xl">
           <h3 class="text-2xl lg:text-3xl text-white font-bold p-4 table-text">
             Minting Details
             <img class="w-60 md:w-80" src="./images/fireline.png" />
           </h3>
-          <ul class="px-8 ">
+          <ul class="px-8">
             <li>0.08 Eth per mint and a maximum of 5 mints per transaction</li>
             <li>
               Marvatars are revealed 3 days after the start of the sale, or as
@@ -169,7 +174,10 @@
             src="./images/card.png"
           />
           <div>
-            <div v-if="saleopen" class="relative flex flex-col sm:flex-row sm:space-x-4">
+            <div
+              v-if="saleopen"
+              class="relative flex flex-col sm:flex-row sm:space-x-4"
+            >
               <a class="m-auto" @click="fund">
                 <button class="table-text classic-button text-xl">
                   MINT @ {{ nft_price }} ETH
@@ -178,7 +186,7 @@
             </div>
 
             <h1
-              class="text-center table-text text-5xl font-extrabold tracking-tight text-gray-900 "
+              class="text-center table-text text-5xl font-extrabold tracking-tight text-gray-900"
             >
               <span class="block xl:inline text-red-900">Sold : </span>
               <span class="block text-red-600 xl:inline"
@@ -194,7 +202,7 @@
             <img class="w-60 md:w-80" src="./images/fireline.png" />
           </h3>
 
-          <ul class="px-8 ">
+          <ul class="px-8">
             <li>
               Mythic card holders from Phase 1 are airdropped random unrevealed
               Marveros NFTs (Phase 2)!
@@ -235,21 +243,21 @@
                 <th class="w-32 md:w-64">
                   Rarity
                   <img
-                    class=" w-20 md:w-32 m-auto"
+                    class="w-20 md:w-32 m-auto"
                     src="./images/fireline.png"
                   />
                 </th>
                 <th class="w-32 md:w-64">
                   Badges
                   <img
-                    class=" w-20 md:w-32 m-auto"
+                    class="w-20 md:w-32 m-auto"
                     src="./images/fireline.png"
                   />
                 </th>
                 <th class="w-32 md:w-64">
                   Mints
                   <img
-                    class=" w-20 md:w-32 m-auto"
+                    class="w-20 md:w-32 m-auto"
                     src="./images/fireline.png"
                   />
                 </th>
@@ -368,9 +376,7 @@
                 <td class="md:px-8">
                   <img class="w-16 md:w-32 pb-8" src="./images/20pb.png" />
                 </td>
-                <td class="p-2">
-                  20%
-                </td>
+                <td class="p-2">20%</td>
                 <td class="p-2">1 ETH donation!</td>
               </tr>
 
@@ -378,36 +384,28 @@
                 <td class="md:px-8">
                   <img class="w-16 md:w-32 pb-8" src="./images/40pb.png" />
                 </td>
-                <td class="md:px-8">
-                  40%
-                </td>
+                <td class="md:px-8">40%</td>
                 <td class="md:px-8">2 ETH donation!</td>
               </tr>
               <tr class="h-16">
                 <td class="md:px-8">
                   <img class="w-16 md:w-32 pb-8" src="./images/60pb.png" />
                 </td>
-                <td class="md:px-8">
-                  60%
-                </td>
+                <td class="md:px-8">60%</td>
                 <td class="md:px-8">3 ETH donation!</td>
               </tr>
               <tr class="h-16">
                 <td class="md:px-8">
                   <img class="w-16 md:w-32 pb-8" src="./images/80pb.png" />
                 </td>
-                <td class="md:px-8">
-                  80%
-                </td>
+                <td class="md:px-8">80%</td>
                 <td class="md:px-8">4 ETH donation!</td>
               </tr>
               <tr class="h-16">
                 <td class="md:px-8">
                   <img class="w-16 md:w-32 pb-8" src="./images/100pb.png" />
                 </td>
-                <td class="md:px-8">
-                  100%
-                </td>
+                <td class="md:px-8">100%</td>
                 <td class="md:px-8">5 ETH donation!</td>
               </tr>
             </tbody>
@@ -427,7 +425,7 @@
             At the end of the sale, a consolidated list of charities will be
             published based on the community nominations including some of the
             charities that we have considered. There will be 5 rounds of voting,
-            based on the progress of the mint sale (20%, 40%, 60%, 90% & 100%).
+            based on the progress of the mint sale (20%, 40%, 60%, 80% & 100%).
             The charity with the maximum number of votes at the end of the
             voting period for each of the rounds will receive the respective
             donations at the end of the sale period.
@@ -445,9 +443,7 @@
 
       <div class="grid grid-cols-1 gap-0 text-gray-400 text-sm md:text-xl">
         <div>
-          <p class="py-3">
-            With Marvatars, EVERYONE WINS!!
-          </p>
+          <p class="py-3">With Marvatars, EVERYONE WINS!!</p>
           <p class="py-3">
             Every Marvatar holder is eligible for a lottery based on the
             progress of the sale as listed below
@@ -495,9 +491,7 @@
               <label class="tab-label" for="chck1"
                 >What is the cost to mint a Marvatar</label
               >
-              <div class="tab-content">
-                0.08 ETH per Mint
-              </div>
+              <div class="tab-content">0.08 ETH per Mint</div>
             </div>
             <div class="tab">
               <input type="checkbox" id="chck2" />
@@ -650,7 +644,7 @@
       <div
         class="grid w-full grid-cols-1 sm:grid-cols-3 text-red-400 text-xl table-text"
       >
-        <div class="flex flex-col items-center justify-center col-span-1 ">
+        <div class="flex flex-col items-center justify-center col-span-1">
           <div class="relative">
             <img
               class="relative w-full rounded-full avatar"
@@ -694,7 +688,7 @@
       </div>
     </section>
 
-    <section class=" py-16 footer">
+    <section class="py-16 footer">
       <div
         class="flex flex-col flex-wrap items-center justify-between mx-auto md:flex-row md:mx-16"
       >
@@ -712,6 +706,11 @@
         </div>
         <div class="inline-flex items-center">
           <nav class="flex flex-wrap items-center">
+            <a
+              href="http://t.me/marvatars"
+              class="uppercase leading-6 hover:text-red-900"
+              ><img class="object-contain w-16 h-16" src="./images/tg.png"
+            /></a>
             <a
               href="https://twitter.com/marvatars"
               class="uppercase leading-6 hover:text-red-900"
@@ -818,18 +817,18 @@ export default {
 <style>
 @font-face {
   font-family: "Harlow";
-  src: local("Harlow"), url(./fonts/Harlow-Solid-Italic.ttf) format("truetype");
+  src: local("Harlow"), url(./fonts/Harlow-Solid-Italic.ttf)format("truetype");
 }
 
 @font-face {
   font-family: "Squartiqa4F";
-  src: local("Squartiqa4F"), url(./fonts/Squartiqa4F.ttf) format("truetype");
+  src: local("Squartiqa4F"), url(./fonts/Squartiqa4F.ttf)format("truetype");
 }
 
 @font-face {
   font-family: "SirinStencil";
   src: local("SirinStencil"),
-    url(./fonts/SirinStencil-Regular.ttf) format("truetype");
+    url(./fonts/SirinStencil-Regular.ttf)format("truetype");
 }
 
 html {
